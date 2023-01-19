@@ -1,7 +1,7 @@
 name: "Custom resources checklist"
 on:
   pull_request:
-    types: [ opened ]
+    types: [ closed ]
 
 jobs:
   checklist_job:
